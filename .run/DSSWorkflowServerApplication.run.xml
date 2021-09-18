@@ -1,0 +1,17 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="DSSWorkflowServerApplication" type="Application" factoryName="Application">
+    <option name="INCLUDE_PROVIDED_SCOPE" value="true" />
+    <option name="MAIN_CLASS_NAME" value="com.webank.wedatasphere.dss.workflow.DSSWorkflowServerApplication" />
+    <module name="dss-workflow-server" />
+    <option name="VM_PARAMETERS" value="-DserviceName=dss-workflow-server" />
+    <extension name="coverage">
+      <pattern>
+        <option name="PATTERN" value="com.webank.wedatasphere.dss.workflow.*" />
+        <option name="ENABLED" value="true" />
+      </pattern>
+    </extension>
+    <method v="2">
+      <option name="Make" enabled="true" />
+    </method>
+  </configuration>
+</component>

@@ -1,0 +1,17 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="DSSApiServiceServerApplication" type="Application" factoryName="Application">
+    <option name="INCLUDE_PROVIDED_SCOPE" value="true" />
+    <option name="MAIN_CLASS_NAME" value="com.webank.wedatasphere.dss.apiservice.DSSApiServiceServerApplication" />
+    <module name="dss-apiservice-server" />
+    <option name="VM_PARAMETERS" value="-DserviceName=dss-apiservice-server" />
+    <extension name="coverage">
+      <pattern>
+        <option name="PATTERN" value="com.webank.wedatasphere.dss.apiservice.*" />
+        <option name="ENABLED" value="true" />
+      </pattern>
+    </extension>
+    <method v="2">
+      <option name="Make" enabled="true" />
+    </method>
+  </configuration>
+</component>

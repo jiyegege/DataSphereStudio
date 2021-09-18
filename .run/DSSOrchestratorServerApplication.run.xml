@@ -1,0 +1,17 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="DSSOrchestratorServerApplication" type="Application" factoryName="Application">
+    <option name="INCLUDE_PROVIDED_SCOPE" value="true" />
+    <option name="MAIN_CLASS_NAME" value="com.webank.wedatasphere.dss.orchestrator.server.DSSOrchestratorServerApplication" />
+    <module name="dss-framework-orchestrator-server" />
+    <option name="VM_PARAMETERS" value="-DserviceName=dss-framework-orchestrator-server -DDSS_HOME=$USER_HOME$/Downloads/wedatasphere-dss-1.0.0-dist/dss-1.0.0" />
+    <extension name="coverage">
+      <pattern>
+        <option name="PATTERN" value="com.webank.wedatasphere.dss.orchestrator.server.*" />
+        <option name="ENABLED" value="true" />
+      </pattern>
+    </extension>
+    <method v="2">
+      <option name="Make" enabled="true" />
+    </method>
+  </configuration>
+</component>
