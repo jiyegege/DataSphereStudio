@@ -30,7 +30,8 @@ object DSSProjectServerApplication extends Logging {
     DSSMainHelper.formatPropertyFiles(serviceName)
     val allArgs = args ++ DSSMainHelper.getExtraSpringOptions
     System.setProperty("hostName", hostName)
-    System.setProperty("userName", userName)
+    System.setProperty("userName", "root")
+    System.setProperty("HADOOP_USER_NAME","root")
     info(s"Ready to start $serviceName with args: ${allArgs.toList}.")
     println(s"Test Ready to start $serviceName with args: ${allArgs.toList}.")
     DataWorkCloudApplication.main(allArgs)
