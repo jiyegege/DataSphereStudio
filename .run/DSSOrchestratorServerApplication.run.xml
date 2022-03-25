@@ -3,7 +3,7 @@
     <option name="INCLUDE_PROVIDED_SCOPE" value="true" />
     <option name="MAIN_CLASS_NAME" value="com.webank.wedatasphere.dss.orchestrator.server.DSSOrchestratorServerApplication" />
     <module name="dss-framework-orchestrator-server" />
-    <option name="VM_PARAMETERS" value="-DserviceName=dss-framework-orchestrator-server -DDSS_HOME=$USER_HOME$/Downloads/wedatasphere-dss-1.0.0-dist/dss-1.0.0" />
+    <option name="VM_PARAMETERS" value="-DserviceName=dss-framework-orchestrator-server -DDSS_HOME=$USER_HOME$/Downloads/dss -Xbootclasspath/a:$PROJECT_DIR$/conf" />
     <extension name="coverage">
       <pattern>
         <option name="PATTERN" value="com.webank.wedatasphere.dss.orchestrator.server.*" />

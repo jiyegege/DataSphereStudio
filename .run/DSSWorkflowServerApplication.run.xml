@@ -3,7 +3,7 @@
     <option name="INCLUDE_PROVIDED_SCOPE" value="true" />
     <option name="MAIN_CLASS_NAME" value="com.webank.wedatasphere.dss.workflow.DSSWorkflowServerApplication" />
     <module name="dss-workflow-server" />
-    <option name="VM_PARAMETERS" value="-DserviceName=dss-workflow-server" />
+    <option name="VM_PARAMETERS" value="-DserviceName=dss-workflow-server -Xbootclasspath/a:$PROJECT_DIR$/conf" />
     <extension name="coverage">
       <pattern>
         <option name="PATTERN" value="com.webank.wedatasphere.dss.workflow.*" />
